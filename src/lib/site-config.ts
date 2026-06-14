@@ -1,4 +1,4 @@
-// ═══════════════════════════════════════════════════════════════════
+﻿// ═══════════════════════════════════════════════════════════════════
 // Site Configuration — Location Voiture Hammamet
 // Domain: locationvoiture-hammamet.com | FR | Hammamet
 // ═══════════════════════════════════════════════════════════════════
@@ -182,13 +182,15 @@ export const siteConfig = {
     },
 
     theme: {
-        primary: "#00256f",
-        primaryContainer: "#1a3c8f",
+        heroVariant: "overlay",   // "overlay" | "split"
+        cardVariant: "outlined",   // "default" | "outlined"
+        primary: "#6d28d9",
+        primaryContainer: "#5b21b6",
         primaryFixed: "#dbe1ff",
         onPrimary: "#ffffff",
-        onPrimaryContainer: "#92abff",
-        accent: "#00256f",
-        accentDark: "#1a3c8f",
+        onPrimaryContainer: "#c4b5fd",
+        accent: "#6d28d9",
+        accentDark: "#5b21b6",
         background: "#f7f9fc",
         surface: "#f7f9fc",
         surfaceContainerLow: "#f2f4f7",
@@ -197,7 +199,7 @@ export const siteConfig = {
         onSurface: "#191c1e",
         onSurfaceVariant: "#444651",
         outlineVariant: "#c4c6d3",
-        footerBg: "#172554",
+        footerBg: "#2e1065",
     },
 } as const;
 
