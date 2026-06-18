@@ -21,7 +21,7 @@ export const siteConfig = {
             link: "+21623179016",
             whatsapp: "21623179016",
         },
-        email: "contact-booking-rentalcars@gmail.com",
+        email: "contact.booking.rentalcars@gmail.com",
         address: {
             street: "Hammamet Centre",
             city: "Hammamet",
@@ -108,7 +108,7 @@ export const siteConfig = {
     },
 
     email: {
-        to: "contact-booking-rentalcars@gmail.com",
+        to: "contact.booking.rentalcars@gmail.com",
     },
 
     content: {
